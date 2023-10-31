@@ -1,0 +1,12 @@
+Python
+
+https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/python
+
+_________
+
+def get_real_floor(n):
+    if n > 13:
+        return n - 2
+    elif n > 0:
+        return n -1 
+        
