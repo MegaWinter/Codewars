@@ -1,0 +1,12 @@
+Python
+________
+
+
+def capitals(word):
+    index = []
+    i = 0
+    for l in word:
+        if l.isupper():
+            index.append(i)
+        i += 1
+    return index
