@@ -1,0 +1,6 @@
+SQL
+
+__________
+
+
+SELECT MIN(age), MAX(age) from people 
