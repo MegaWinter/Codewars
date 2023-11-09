@@ -1,0 +1,8 @@
+Javascript
+_____
+
+function mergeArrays(a, b) {
+  return Array.from(new Set(a.concat(b).sort((x,y)=> x -y)))
+}
+ 
+
