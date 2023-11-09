@@ -1,0 +1,13 @@
+JavaScript
+_______
+
+function countSheeps(sheep) {
+  let score = 0;
+  for (const item of sheep)
+    {
+     if (item === true){
+      score++;
+       }
+    }
+  return score
+}
