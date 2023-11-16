@@ -1,0 +1,7 @@
+JavaScript
+
+______
+function DNAtoRNA(dna) {
+  return dna.replace(new RegExp('T', 'g'), "U")
+}
+
