@@ -1,0 +1,16 @@
+JavaScript
+
+_______
+
+function betterThanAverage(classPoints, yourPoints) {
+  let avg = classPoints.reduce((accumulator, currentValue) => accumulator + currentValue, 0) / classPoints.length;
+  if ( avg < yourPoints){
+    return true
+  }
+  else
+    return false
+}
+
+
+
+
