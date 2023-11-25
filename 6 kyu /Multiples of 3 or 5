@@ -1,0 +1,18 @@
+Python
+______
+
+
+def solution(number):
+    number_list = []
+    for x in range (number):
+        if number < 0:
+            return 0
+        elif x % 3 == 0 and x % 5== 0:
+            number_list.append(x)
+        elif x % 3 == 0:
+            number_list.append(x)
+        elif x % 5 == 0:
+            number_list.append(x)
+    
+    return sum(number_list)
+  
