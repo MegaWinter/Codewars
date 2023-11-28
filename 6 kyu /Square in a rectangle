@@ -1,0 +1,14 @@
+Python
+
+____
+
+def findSquares(x,y):
+     if(y < x):
+        temp = x
+        x = y
+        y = temp
+        return x * (x + 1) * (2 * x + 1) / 6 + (y - x) * x * (x + 1) / 2
+
+
+
+
