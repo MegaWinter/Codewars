@@ -1,0 +1,8 @@
+Javascript
+
+_____
+
+function getChar(c){
+  return String.fromCharCode(c)
+}
+
