@@ -1,0 +1,8 @@
+JavaScript
+
+____
+
+const stringToNumber = function(str){
+  return Number(str)
+}
+
