@@ -1,0 +1,13 @@
+JavaScript
+___
+
+function count(string) {
+  const counts = Object.create(null);
+  for (const ch of string) {
+    const count = counts[ch] ?? 0;
+    counts[ch] = count + 1;
+}
+return counts
+
+}
+
